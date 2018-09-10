@@ -1,15 +1,14 @@
-import java.awt.desktop.SystemEventListener;
 import java.util.Scanner;
 
 public class userinput {
 
     public static void main(String[] args) {
-        Scanner scan= new Scanner(System.in);
-        System.out.println("Ënter a Number");
-        int x= scan.nextInt();
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter a Number");
+        int number = scan.nextInt(); //user input a number
 
-        System.out.println("Ëntered Number is: ");
-        System.out.print(x);
+        System.out.println("Entered Number is: ");
+        System.out.print(number);
     }
 
 }
